@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC9377D1CBD493B002289F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9377C1CBD493B002289F9 /* main.m */; };
+		BCC937801CBD493B002289F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9377F1CBD493B002289F9 /* AppDelegate.m */; };
+		BCC937831CBD493B002289F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC937821CBD493B002289F9 /* ViewController.m */; };
+		BCC937861CBD493B002289F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC937841CBD493B002289F9 /* Main.storyboard */; };
+		BCC937881CBD493B002289F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC937871CBD493B002289F9 /* Assets.xcassets */; };
+		BCC9378B1CBD493B002289F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC937891CBD493B002289F9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCC937781CBD493B002289F9 /* MyTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC9377C1CBD493B002289F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCC9377E1CBD493B002289F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCC9377F1CBD493B002289F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCC937811CBD493B002289F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCC937821CBD493B002289F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCC937851CBD493B002289F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC937871CBD493B002289F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC9378A1CBD493B002289F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC9378C1CBD493B002289F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC937751CBD493B002289F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC9376F1CBD493B002289F9 = {
+			isa = PBXGroup;
+			children = (
+				BCC9377A1CBD493B002289F9 /* MyTicket */,
+				BCC937791CBD493B002289F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC937791CBD493B002289F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC937781CBD493B002289F9 /* MyTicket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC9377A1CBD493B002289F9 /* MyTicket */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9377E1CBD493B002289F9 /* AppDelegate.h */,
+				BCC9377F1CBD493B002289F9 /* AppDelegate.m */,
+				BCC937811CBD493B002289F9 /* ViewController.h */,
+				BCC937821CBD493B002289F9 /* ViewController.m */,
+				BCC937841CBD493B002289F9 /* Main.storyboard */,
+				BCC937871CBD493B002289F9 /* Assets.xcassets */,
+				BCC937891CBD493B002289F9 /* LaunchScreen.storyboard */,
+				BCC9378C1CBD493B002289F9 /* Info.plist */,
+				BCC9377B1CBD493B002289F9 /* Supporting Files */,
+			);
+			path = MyTicket;
+			sourceTree = "<group>";
+		};
+		BCC9377B1CBD493B002289F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9377C1CBD493B002289F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC937771CBD493B002289F9 /* MyTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC9378F1CBD493B002289F9 /* Build configuration list for PBXNativeTarget "MyTicket" */;
+			buildPhases = (
+				BCC937741CBD493B002289F9 /* Sources */,
+				BCC937751CBD493B002289F9 /* Frameworks */,
+				BCC937761CBD493B002289F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTicket;
+			productName = MyTicket;
+			productReference = BCC937781CBD493B002289F9 /* MyTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC937701CBD493B002289F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = leng;
+				TargetAttributes = {
+					BCC937771CBD493B002289F9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BCC937731CBD493B002289F9 /* Build configuration list for PBXProject "MyTicket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC9376F1CBD493B002289F9;
+			productRefGroup = BCC937791CBD493B002289F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC937771CBD493B002289F9 /* MyTicket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC937761CBD493B002289F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC9378B1CBD493B002289F9 /* LaunchScreen.storyboard in Resources */,
+				BCC937881CBD493B002289F9 /* Assets.xcassets in Resources */,
+				BCC937861CBD493B002289F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC937741CBD493B002289F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC937831CBD493B002289F9 /* ViewController.m in Sources */,
+				BCC937801CBD493B002289F9 /* AppDelegate.m in Sources */,
+				BCC9377D1CBD493B002289F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCC937841CBD493B002289F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC937851CBD493B002289F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC937891CBD493B002289F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC9378A1CBD493B002289F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC9378D1CBD493B002289F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCC9378E1CBD493B002289F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC937901CBD493B002289F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leng.MyTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCC937911CBD493B002289F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leng.MyTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC937731CBD493B002289F9 /* Build configuration list for PBXProject "MyTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC9378D1CBD493B002289F9 /* Debug */,
+				BCC9378E1CBD493B002289F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC9378F1CBD493B002289F9 /* Build configuration list for PBXNativeTarget "MyTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC937901CBD493B002289F9 /* Debug */,
+				BCC937911CBD493B002289F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC937701CBD493B002289F9 /* Project object */;
+}
