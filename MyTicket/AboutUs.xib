@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RNE-bA-zem">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newsapp" translatesAutoresizingMaskIntoConstraints="NO" id="G18-xX-2c3">
+                    <rect key="frame" x="270" y="30" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Y4a-qA-fZa"/>
+                        <constraint firstAttribute="width" constant="60" id="ePP-wj-vRn"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0.1 build 1.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6l-WT-fwH">
+                    <rect key="frame" x="255" y="120" width="90" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="2dc-PS-3NF"/>
+                        <constraint firstAttribute="height" constant="21" id="C56-Ve-X4e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.31378823140000001" green="0.31378823140000001" blue="0.31378823140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本 :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQd-kX-3cq">
+                    <rect key="frame" x="218" y="120" width="37" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="37" id="fYD-Is-cV0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.31378823140000001" green="0.31378823140000001" blue="0.31378823140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="官网 :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6k-h9-TCb">
+                    <rect key="frame" x="218" y="145" width="37" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.31378823140000001" green="0.31378823140000001" blue="0.31378823140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="http://www.baidu.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veL-m3-7Uy">
+                    <rect key="frame" x="255" y="145" width="160" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.31378823140000001" green="0.31378823140000001" blue="0.31378823140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Z6l-WT-fwH" firstAttribute="centerX" secondItem="RNE-bA-zem" secondAttribute="centerX" id="0Cv-T4-Ilt"/>
+                <constraint firstItem="D6k-h9-TCb" firstAttribute="height" secondItem="oQd-kX-3cq" secondAttribute="height" id="4eq-fx-eH1"/>
+                <constraint firstItem="G18-xX-2c3" firstAttribute="centerX" secondItem="RNE-bA-zem" secondAttribute="centerX" id="60a-Zr-O8Q"/>
+                <constraint firstItem="veL-m3-7Uy" firstAttribute="height" secondItem="Z6l-WT-fwH" secondAttribute="height" id="Eh6-dw-kL6"/>
+                <constraint firstItem="veL-m3-7Uy" firstAttribute="centerY" secondItem="D6k-h9-TCb" secondAttribute="centerY" id="PdD-ZK-8tg"/>
+                <constraint firstItem="oQd-kX-3cq" firstAttribute="height" secondItem="Z6l-WT-fwH" secondAttribute="height" id="ZHo-53-OQg"/>
+                <constraint firstItem="Z6l-WT-fwH" firstAttribute="top" secondItem="G18-xX-2c3" secondAttribute="bottom" constant="30" id="ZVz-v1-HkV"/>
+                <constraint firstItem="D6k-h9-TCb" firstAttribute="top" secondItem="oQd-kX-3cq" secondAttribute="bottom" constant="4" id="dMX-do-iku"/>
+                <constraint firstItem="D6k-h9-TCb" firstAttribute="leading" secondItem="oQd-kX-3cq" secondAttribute="leading" id="gne-xM-7Yu"/>
+                <constraint firstItem="oQd-kX-3cq" firstAttribute="centerY" secondItem="Z6l-WT-fwH" secondAttribute="centerY" id="kxz-8m-VSY"/>
+                <constraint firstItem="D6k-h9-TCb" firstAttribute="width" secondItem="oQd-kX-3cq" secondAttribute="width" id="qdO-Cq-BeX"/>
+                <constraint firstItem="Z6l-WT-fwH" firstAttribute="leading" secondItem="oQd-kX-3cq" secondAttribute="trailing" id="uNA-le-bFT"/>
+                <constraint firstItem="veL-m3-7Uy" firstAttribute="width" secondItem="Z6l-WT-fwH" secondAttribute="width" constant="70" id="w4U-f2-Z6V"/>
+                <constraint firstItem="veL-m3-7Uy" firstAttribute="leading" secondItem="Z6l-WT-fwH" secondAttribute="leading" id="xbC-E5-OOj"/>
+                <constraint firstItem="G18-xX-2c3" firstAttribute="top" secondItem="RNE-bA-zem" secondAttribute="top" constant="30" id="xpm-ob-g1E"/>
+            </constraints>
+            <point key="canvasLocation" x="268" y="317"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="newsapp" width="57" height="57"/>
+    </resources>
+</document>

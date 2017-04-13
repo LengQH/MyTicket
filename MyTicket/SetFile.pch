@@ -1,0 +1,31 @@
+
+//
+//  SetFile.pch
+//  MyTicket
+//
+//  Created by 冷求慧 on 16/4/13.
+//  Copyright © 2016年 leng. All rights reserved.
+//
+
+#ifndef SetFile_pch
+#define SetFile_pch
+
+#import "UIView+Extension.h"
+#import "MBProgressHUD+MJ.h"
+
+#define NSLogLeng(...)   NSLog(__VA_ARGS__)
+//#define NSLogLeng (...)
+
+#define statusH 20
+#define navigationBarH 44
+#define toolBarH 49
+
+#define selfW   self.view.frame.size.width
+#define selfH   self.view.frame.size.height
+#define screenW [[UIScreen mainScreen] bounds].size.width
+#define screenH [[UIScreen mainScreen] bounds].size.height
+
+#define cusFont(value) [UIFont systemFontOfSize:value]
+#define cusColor(r,g,b,a)  [UIColor colorWithRed:r%256.0 green:g%256.0 blue:b%256.0 alpha:a]
+
+#endif
